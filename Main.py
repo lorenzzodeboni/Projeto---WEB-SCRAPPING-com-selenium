@@ -181,3 +181,4 @@ display(tabela_ofertas)
 tabela_ofertas = tabela_ofertas.reset_index(drop=True)
 tabela_ofertas.to_excel('Gabarito ofertas.xlsx', index = False)
 
+navegador.quit()
